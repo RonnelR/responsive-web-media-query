@@ -1,0 +1,61 @@
+html{
+    margin: 50px 50px 0px 50px;
+    
+}
+
+h1{
+    font-size: 5rem;
+}
+
+
+footer > p{
+    clear: both;
+    text-align: end;
+    color: darkblue;
+}
+
+.tile{
+    width: 200px;
+    height: 200px;
+    margin: 0px 10px 10px 0px;
+    float: left;
+}
+
+.left{
+    width: 45%;
+    float: left;
+}
+
+.right{
+    width:45%;
+    float: right;
+}
+
+.creative{
+    color: darkblue;
+}
+
+@media(max-width: 680px){
+    .logo{
+        display: block;
+        width: 100px;
+    }
+    h1{
+        text-align: center;
+    }
+    .card {
+        width: 100%;
+        display: block;
+        margin-bottom: 30px;
+
+    }
+    .tile{
+        width: 100%;
+        display: block;
+    }
+    
+       
+        
+}
+   
+
